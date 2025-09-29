@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Ocean View Room",
+    "description": "Wake up to breathtaking ocean views with modern luxury and comfort.",
+    "price": "$250/night",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Mountain Retreat",
+    "description": "Experience serenity surrounded by mountains in a cozy wooden cabin-style retreat.",
+    "price": "$180/night",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/5d2c8b7d2eb03c00082e5be9/0x0.jpg?format=jpg&width=1200"
+  },
+  {
+    "id": 3,
+    "name": "City Lights Suite",
+    "description": "Stay in the heart of the city with stunning skyline views and luxury interiors.",
+    "price": "$320/night",
+    "image": "https://irp.cdn-website.com/1e36eb34/dms3rep/multi/ManhattanClub-092023-29-+resized.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Garden Deluxe",
+    "description": "Relax in a tranquil garden-facing room with natural light and peaceful surroundings.",
+    "price": "$210/night",
+    "image": "https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/150/2017/06/09031835/Deluxe-Garden_r.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Luxury Penthouse",
+    "description": "Indulge in luxury with a penthouse suite featuring private balcony and jacuzzi.",
+    "price": "$500/night",
+    "image": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Cozy Standard Room",
+    "description": "Affordable comfort with elegant decor, perfect for solo travelers and couples.",
+    "price": "$120/night",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+  }
+]

@@ -1,0 +1,145 @@
+/* Base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd43b; /* subtle hover color */
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Room cards */
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+/* Buttons */
+.btn-outline-info,
+.btn-success,
+.btn-primary {
+  border-radius: 25px;
+  padding: 8px 18px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-info:hover,
+.btn-success:hover,
+.btn-primary:hover {
+  transform: translateY(-2px);
+}
+
+/* About & Contact sections */
+section h3 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #343a40;
+}
+
+form input,
+form textarea {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 6px rgba(37, 117, 252, 0.3);
+  outline: none;
+}
+
+form button {
+  border-radius: 25px;
+  padding: 10px 24px;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+/* Loader (if used) */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
